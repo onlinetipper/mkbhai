@@ -1,81 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AFTAB KHAN</title>
-<link rel="stylesheet" href="Aftab.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger Calling - Telegram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
 
-<style>
-  /* GitHub Background Image Settings */
-  body {
-    background-image: url('https://raw.githubusercontent.com/onlinetipper/crickrt-q/1de818764c4ce3fd9174738ed3f0b3c42c266017/tanya.jpg'); /* Apna GitHub Link Yahan Dalein */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Buttons ko ek ke niche ek lane ke liye container */
-  .button-container {
-    display: flex;
-    flex-direction: column; /* Buttons ko upar-niche karne ke liye */
-    align-items: center;
-    gap: 15px; /* Dono buttons ke beech ki jagah */
-    margin-top: 20px;
-  }
-
-  /* Disclaimer Box Style */
-  .disclaimer {
-    margin: 20px;
-    padding: 15px;
-    font-size: 14px;
-    color: #555;
-    background: rgba(255, 255, 255, 0.8); /* Background image ke upar text dikhe isliye halka white background */
-    border-radius: 10px;
-    text-align: center;
-  }
-</style>
-
+    <script>
+      !function(f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+        t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '813352405000767'); fbq('init', '1044388354567739');
+      fbq('track', 'PageView');
+    </script>
 </head>
 <body>
+
   <div class="hero">
     <div class="content">
-      <p class="paragraph mg">Cricket updates and learning-focused insights</p>
-      <h1 class="heading1">Betting Guruji Aryan</h1>
+      <h1 class="heading1">👑TIGER (Calling📞)👑</h1>
+      <p class="paragraph">💰 No 1 Session King 🎯</p>
     </div>
-  
-    <div class="counter">Free joining ends in... <span id="countdown">60 seconds</span></div>
-  
-    <div class="button-container">
-      <div class="button2">
-        <a href="https://t.me/+L0qphWNzviszMDg1" class="button"> JOIN NOW NOW FOR FREE <i class="fa fa-telegram"></i></a>
-      </div>
-      
-       <h4>Clear, responsible guidance to help fans stay informed</h4>
 
-      <div class="button2">
-        <a href="https://t.me/+L0qphWNzviszMDg1" class="button"> JOIN NOW FOR FREE <i class="fa fa-telegram"></i></a>
+    <div class="counter">FREE JOINING ENDS IN... <span id="countdown">60</span> seconds</div>
+
+    <div class="button-container">
+      <a href="https://telegram.me/+LNXEjubtA6JjM2Jk" class="button-link">
+        JOIN NOW FOR FREE <i class="fa-brands fa-telegram"></i>
+      </a>
+    </div>
+    
+    <div class="content-wrapper">
+      <div class="points">
+        <ul>
+          <li><i class="fa-regular fa-hand-point-right"></i> Every Day 3 Limit Plus ➕️</li>
+          <li><i class="fa-regular fa-hand-point-right"></i> IPL ME SARE MATCHES PASS</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="clr">💰Popular Cricket SESSION KING💰</h2>
+
+    <div class="button-container">
+      <a href="https://telegram.me/+LNXEjubtA6JjM2Jk" class="button-link pulse">
+        CLICK HERE TO JOIN TELEGRAM <i class="fa-brands fa-telegram"></i>
+      </a>
+    </div>
+
   </div>
 
   <script>
     let remainingSeconds = 60;
     function updateCountdown() {
-      document.getElementById("countdown").innerHTML = `${remainingSeconds} seconds`;
-      remainingSeconds -= 1;
-      if (remainingSeconds < 0) {
-        remainingSeconds = 60; 
-      }
+      document.getElementById("countdown").innerHTML = remainingSeconds;
+      remainingSeconds--;
+      if (remainingSeconds < 0) { remainingSeconds = 60; }
     }
-    updateCountdown();
     setInterval(updateCountdown, 1000);
   </script>
-
 </body>
 </html>
