@@ -3,18 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiger Calling - Telegram</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tiger Calling - No 1 Session King</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Yahan aap apni background image ka link badal sakte hain */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                              url('https://raw.githubusercontent.com/onlinetipper/crickrt-q/1de818764c4ce3fd9174738ed3f0b3c42c266017/tanya.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .hero {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        .heading1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+        }
+
+        .paragraph {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .counter {
+            background: #ff3333;
+            padding: 8px 15px;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+        }
+
+        #countdown {
+            color: #fff;
+            font-size: 1.1rem;
+        }
+
+        .points {
+            text-align: left;
+            margin: 20px 0;
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .points ul {
+            list-style: none;
+        }
+
+        .points li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .points i {
+            color: #ffcc00;
+            margin-right: 10px;
+        }
+
+        .button-container {
+            margin: 20px 0;
+        }
+
+        .button-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(45deg, #0088cc, #24A1DE);
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .button-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(36, 161, 222, 0.5);
+        }
+
+        /* Animation for Bottom Button */
+        .pulse {
+            animation: pulse-red 2s infinite;
+        }
+
+        @keyframes pulse-red {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .clr {
+            font-family: 'Oswald', sans-serif;
+            color: #ffcc00;
+            margin: 20px 0;
+            font-size: 1.3rem;
+        }
+    </style>
 
     <script>
-      !function(f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
-        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
-        t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '813352405000767'); fbq('init', '1044388354567739');
       fbq('track', 'PageView');
     </script>
@@ -27,7 +157,7 @@
       <p class="paragraph">💰 No 1 Session King 🎯</p>
     </div>
 
-    <div class="counter">FREE JOINING ENDS IN... <span id="countdown">60</span> seconds</div>
+    <div class="counter">FREE JOINING ENDS IN... <span id="countdown">60</span>s</div>
 
     <div class="button-container">
       <a href="https://telegram.me/+LNXEjubtA6JjM2Jk" class="button-link">
@@ -40,6 +170,7 @@
         <ul>
           <li><i class="fa-regular fa-hand-point-right"></i> Every Day 3 Limit Plus ➕️</li>
           <li><i class="fa-regular fa-hand-point-right"></i> IPL ME SARE MATCHES PASS</li>
+          <li><i class="fa-regular fa-hand-point-right"></i> 95% Accuracy Guaranteed 🎯</li>
         </ul>
       </div>
     </div>
@@ -48,10 +179,9 @@
 
     <div class="button-container">
       <a href="https://telegram.me/+LNXEjubtA6JjM2Jk" class="button-link pulse">
-        CLICK HERE TO JOIN TELEGRAM <i class="fa-brands fa-telegram"></i>
+        JOIN TELEGRAM NOW <i class="fa-brands fa-telegram"></i>
       </a>
     </div>
-
   </div>
 
   <script>
@@ -63,5 +193,6 @@
     }
     setInterval(updateCountdown, 1000);
   </script>
+
 </body>
 </html>
